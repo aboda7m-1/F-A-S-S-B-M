@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طايشين بس عايشين | الموقع الرسمي</title>
+ <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e; /* لون خلفية داكن جداً */
+            color: #e9ecef;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+            color: #00d2ff;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #1f4068;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #16213e; /* لون البطاقة داكن */
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
+            border: 1px solid #1f4068;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #00d2ff; /* يتوهج عند مرور الماوس */
+            box-shadow: 0 12px 30px rgba(0, 210, 255, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            filter: grayscale(20%); /* لمسة سينمائية خفيفة */
+            transition: 0.3s;
+        }
+        .card:hover img {
+            filter: grayscale(0%);
+        }
+        .info {
+            padding: 20px;
+        }
+        .info h3 {
+            margin: 10px 0;
+            color: #00d2ff; /* لون الأسماء */
+            font-size: 1.5em;
+        }
+        .info p {
+            color: #94a3b8;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        .tag {
+            display: inline-block;
+            background: #0f3460;
+            color: #00d2ff;
+            padding: 6px 15px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            margin-top: 15px;
+            border: 1px solid #1f4068;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🤪 طايشين بس عايشين</h1>
+        <p>اهلا بك في اسوء قروب موجود على كوكب الارض </p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="m.jpg" alt="ماجد">
+            <div class="info">
+                <h3>ماجد</h3>
+                <p>ماجد اكبر منافق و كذاب على وجه الارض و اول مايقابلك يقول معك دزرت معك سحبه؟؟</p>
+                <span class="tag">عبد النيكوتين</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="b.jpg" alt="بتال">
+            <div class="info">
+                <h3>بتال</h3>
+                <p>بتال وضيفته فالحياة يركب قدام و مامنه فايده نضره ضعيف بس يركب قدام</p>
+                <span class="tag">يركب قدام</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="f.jpg" alt="فارس">
+            <div class="info">
+                <h3>فارس</h3>
+                <p>رئيس مجلس الوزراء والسبب انه معه الصني الي كل طلعه لازم تكون موجوه و مورد الخراب من سحبات او دزرت كل شي</p>
+                <span class="tag">مورد السحبات والدزرت</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="s.jpg" alt="سلطان">
+            <div class="info">
+                <h3>سلطان</h3>
+                <p>سوسو طيب حنون يعطيك دزرت تقوله انزل خرمان ينزلك مايقول لا</p>
+                <span class="tag">ولد فارس</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="a.jpg" alt="عبدالرحيم">
+            <div class="info">
+                <h3>عبدالرحيم</h3>
+                <p>اوهو عاد هاذا مايحتاج نتكلم عنه تبغاه من فزعات يجيك بس مشكلته مطفر ومايعيب الرجال غير جيبه</p>
+                <span class="tag">شاعر القروب</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ss.jpg" alt="ساجد">
+            <div class="info">
+                <h3>ساجد</h3>
+                <p>ساجد كل مازانت الجلسة يقول ماعجبتك سواقتي انزل + كل دقيقة يقزل فك نت </p>
+                <span class="tag">اسمراني اللون</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
